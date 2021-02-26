@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- index es la pagina inicial que busca el servidor -->
+<!-- etiqueta pare que contendrá toda la estructura de la pagina -->
+<html lang="en">
+  <!-- va todo lo importante del proyecto, lo que se necesite para que funcione  en el navegador-->
+  <head>
+    <!-- meta : -->
+    <!-- da cierta informacion al navegador para que trate el proyecto en el DOM -->
+    <!-- charset: -->
+    <!-- lleva un valor que le indica que caracteres debe interpretar -->
+    <meta charset="UTF-8" />
+    <!-- name=description: -->
+    <!-- ayuda al posicionamiento en internet -->
+    <meta name="description" content="Es la descripcion de la pagina" />
+    <!-- name= robots:-->
+    <!-- hay robots que ayudan a posicionar las pagainas y les autorizamos -->
+    <!-- a que nos ayuden a posicionar nuestra pagina por las busquedas -->
+    <!-- content='index,follow': -->
+    <!-- desde el index autorizamos que coloque nuestra pagina si se hacen 
+      busquedas con temas relacionados al de mi pagina -->
+    <meta name="robots" content="index,follow" />
+
+    <!-- meta para proyectos responsive -->
+    <!-- viewport: tamaño de la pantalla -->
+    <!-- width=device-width, initial-scale=1.0: -->
+    <!-- hace que el texto se ajuste mejor en diferentes dispositivos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- hoja de estilos | CSS -->
+    <!-- href="directorio donde se encuentra tu archivo CSS" -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- este es el titulo que se mostrara en la pestaña del navegador -->
+    <title>Index.html | Clase 1</title>
+  </head>
+  <!-- todo lo visual esta en el body -->
+  <body>
+    <!-- aqui van etiquetas de contenido -->
+    <!-- hay etiquetas para cada parte de una pagina -->
+    <header>
+      esta es la etiqueta de header, el encabezado de una pagina
+      <nav>esta es para una barra de navegacion</nav>
+    </header>
+    <section>
+      esta es una section
+      <article>y contiene este articulo</article>
+    </section>
+    <!-- estas son las listas -->
+    lista desordenada
+    <ul>
+      <li>list item: item de la lista</li>
+      <li>list item: item de la lista</li>
+      <li>list item: item de la lista</li>
+    </ul>
+    lista ordenada
+    <ol>
+      <li>list item: item de la lista</li>
+      <li>list item: item de la lista</li>
+      <li>list item: item de la lista</li>
+    </ol>
+    <!-- parte principal -->
+    <main>esta es la etiqueta main, contiene el contenido principal</main>
+    <!-- pie de pagina -->
+    <p>sou un parrafo</p>
+    <h1>soy h1</h1>
+    <h2>soy h2</h2>
+    <h3>soy h3</h3>
+    <h4>soy h4</h4>
+    <h5>soy h5</h5>
+    <h6>soy h6</h6>
+    <a href="#">soy un hipervinculo</a>
+    <footer>Este es el footer de la pagina</footer>
+  </body>
+</html>
