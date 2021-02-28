@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fechas con formularios" />
+    <title>Clase 17 | Fechas con formularios</title>
+  </head>
+  <body>
+    <h3>Forma controlando cada campo</h3>
+    <form action="">
+      <label for="hora">
+        <span>Hora</span>
+        <!-- name debe ser el mismo que for y el id -->
+        <input type="time" id="hora" name="hora"
+      /></label>
+
+      <label for="dia">
+        <span>Día</span>
+        <!-- name debe ser el mismo que for y el id -->
+        <input type="date" id="dia" name="dia"
+      /></label>
+
+      <label for="semana">
+        <span>Semana</span>
+        <!-- name debe ser el mismo que for y el id -->
+        <input type="week" id="semana" name="semana"
+      /></label>
+
+      <label for="mes">
+        <span>Mes</span>
+        <!-- name debe ser el mismo que for y el id -->
+        <input type="month" id="mes" name="mes"
+      /></label>
+
+      <input type="submit" value="Enviar" />
+    </form>
+    <h3>Forma sencilla</h3>
+    <form action="">
+      <label for="calendario">
+        <span>Calendario</span>
+        <input type="datetime-local" name="calendario" id="calendario" />
+      </label>
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
