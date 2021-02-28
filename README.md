@@ -4,6 +4,6 @@
 
 ### [tinypng](https://tinypng.com/) [verexif](https://www.verexif.com/)
 
-### Free pics
+### Free videos and pics
 
 ### [pexels](https://www.pexels.com/)

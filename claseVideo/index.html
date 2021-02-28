@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Clase sobre la etiqueta de video" />
+    <title>Clase 15 | Video</title>
+  </head>
+  <body>
+    <main>
+      <!-- controls: activa los controles del video (play/pause/etc)-->
+
+      <!-- preload="auto" : ayuda a que el video se renderice cuando la pagina se 
+      crea en el navegador -->
+
+      <!-- si se pone despues del video #t=10,50 -->
+      <!-- ejemplo sky.mp4#t=10,50 -->
+      <!-- le decimos al video que se reprodusca en el segundo 10 y termine en el seundo 50 -->
+
+      <section><video src="sky.mp4" controls preload="auto"></video></section>
+    </main>
+    <h1>otra forma de llamar a un video</h1>
+    <section>
+      <video controls preload="auto">
+        <source src="sky.mp4" />
+      </video>
+    </section>
+  </body>
+</html>
