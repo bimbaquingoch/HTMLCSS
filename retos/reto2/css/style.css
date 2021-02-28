@@ -1,0 +1,25 @@
+img {
+  /* tamano de la image */
+  height: 120px;
+  /* bordes redondeados de la imagen */
+  border-radius: 20px;
+}
+
+a {
+  color: olivedrab;
+  /* elimina el subrayado y cambio de color en la fuente del href */
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ol {
+  /* sirve para ponerlos uno alado del otro los emenetos */
+  display: flex;
+  /* hace que los elementos se ajusten al espacio */
+  justify-content: space-around;
+  /* elimina el formato de la lista */
+  list-style: none;
+}
