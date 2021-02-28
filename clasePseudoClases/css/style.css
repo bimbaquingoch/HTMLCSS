@@ -1,0 +1,36 @@
+.main-nav {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0px;
+  background-color: #13a4a4;
+}
+
+.main-nav__item {
+  /* una lista de vertical a horizontal */
+  display: inline-block;
+}
+
+.main-nav__item a {
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  /* background-color: red; */
+}
+
+/* Pseudo clases */
+/* definen el estilo de un estado del elemento*/
+.main-nav__item a:hover {
+  color: blue;
+}
+
+.main-nav__item a:active {
+  /* cuando haga click se cambia el color */
+  color: red;
+}
+
+/* Pseudo elemento*/
+/* define el estilo en una parte especifica del elemento*/
+.main-nav__item a::after {
+  content: " | ";
+}
