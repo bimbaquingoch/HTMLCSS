@@ -35,3 +35,13 @@ width: calc(50% -20px);
 ```
 
 #### Se le coloca 20px porque estamos aumentado un padding-;eft de 10px a cada elemento, como son 2, entonces se aumenta 20px al content
+
+### RESETEAR EL ESTILO DE LA PAGINA
+
+```
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+```
