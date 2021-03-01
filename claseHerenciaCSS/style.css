@@ -1,0 +1,10 @@
+html {
+  font-size: 75%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* h1 { */
+/* herencia, hereda del padre*/
+/* el padre es la etiqueta que lo contiene*/
+/* font-size: inherit; */
+/* } */
