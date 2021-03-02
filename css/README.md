@@ -1,3 +1,19 @@
+## URLS
+
+- [Game: CSS Dinner](https://flukeout.github.io/)
+- [Game: Garden](https://cssgridgarden.com/#es)
+- [Game: Froggy](https://flexboxfroggy.com/#es)
+- [Color Hunt](https://colorhunt.co/)
+- [icons](https://iconos8.es/)
+- [Picular](https://picular.co/Video)
+- [Colors](https://coolors.co/)
+- [Gradient](https://cssgradient.io/gradient-backgrounds/)
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [Stylus](https://stylus-lang.com/)
+- [Sass](https://sass-lang.com/guide)
+- [Experiments](https://labs.jensimmons.com/)
+
 ![CSS](./imgs/reglacss.png)
 
 ## Modelo de caja
@@ -57,3 +73,12 @@ width: calc(50% -20px);
 | id                             | Los id se aplican si no existe un css inyectado en una etiquta HTML y si no existe un !important (evitar usarlo) |
 | clases                         | Las clases se aplican si lo anterior no existe en el CSS, si se quiere aplicar CSS se debe aplicar con clases    |
 | etiqueta                       | Las etiquetas son de menor gerarquía, se aplican si no existen clases                                            |
+
+## [Combinadores](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators)
+
+| Tipo                          | Caracteristica                                                    |
+| ----------------------------- | ----------------------------------------------------------------- |
+| h2 + p {} (hermano adyacente) | aplica la propiedad si p sigue despues de h2                      |
+| h2 + p {} (hermano general)   | Aplica la propiedad siempre y cuando p este al mismo nivel que h2 |
+| div > p {} (hijo directo)     | si p es hijo directo de div, aplicale el estilo                   |
+| div p {} (desenciente)        | Si dentro de un div existe un p, aplicale este estilo             |

@@ -1,0 +1,20 @@
+/* aplica esta propiedad a cada parrafo que este 
+ seguido por un h2*/
+/* h2 + p { */
+/*   color: red; */
+/* } */
+
+/* aplica esta propieda si el parrafo tiene como
+ hermano general a un h2, que quiere decir
+ si X etiqueta está al mismo nivel que Y etiqueta
+ entonces aplicale el estilo*/
+
+/* h2 ~ p { */
+/*   color: blue; */
+/* } */
+
+/* aplicale si es hijo directo de ..*/
+
+div > p {
+  color: green;
+}
