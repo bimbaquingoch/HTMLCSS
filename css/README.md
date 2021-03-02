@@ -109,3 +109,14 @@ html{
 > em: Es una relativa que toma el tamaño de fuente de su padre directo
 
 > rem: Siempre toma el valor de la etiqueta root osea la etiqueta HTML
+
+> width: Será el tamaño de referencia para usar
+
+- min-width
+  > indica el tamaño minimo que tendrá un elemento
+- max-width
+
+  > es el tamaño maximo que tendra un elemento
+
+- min-height:
+  > es para que el elemento tenga un tamaño minimo pero si el contenido supera ese tamaño, entonces crecerá con el contenido el tamaño del eelemento
