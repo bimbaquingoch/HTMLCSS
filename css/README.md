@@ -60,6 +60,10 @@ width: calc(50% -20px);
   padding: 0;
   margin: 0;
 }
+
+html{
+  font-size: 62.5%;
+}
 ```
 
 ## Especificidad
@@ -82,3 +86,26 @@ width: calc(50% -20px);
 | h2 + p {} (hermano general)   | Aplica la propiedad siempre y cuando p este al mismo nivel que h2 |
 | div > p {} (hijo directo)     | si p es hijo directo de div, aplicale el estilo                   |
 | div p {} (desenciente)        | Si dentro de un div existe un p, aplicale este estilo             |
+
+## Medidas
+
+- Relativas
+
+  > Las medidas relativas si cambian
+
+- Absolutas
+  > Son una medida que no va a cambiar
+
+| Absolutas | Relativas            |
+| --------- | -------------------- |
+| px        | %                    |
+|           | em                   |
+|           | rem(root em)         |
+|           | max-width/max-height |
+|           | min-width/min-height |
+|           | vw (viewport width)  |
+|           | vh (viewport height) |
+
+> em: Es una relativa que toma el tamaño de fuente de su padre directo
+
+> rem: Siempre toma el valor de la etiqueta root osea la etiqueta HTML
