@@ -70,22 +70,22 @@ html{
 
 > Es la gerarquía que tienen las diferentes asignaciones de estilo en CSS
 
-| Tipo                           | Caracteristica                                                                                                   |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
-| !important                     | Se coloca sin importar el resto de estilos, este es el de mayor gerarquía (evitar usarlo)                        |
+|              Tipo              | Caracteristica                                                                                                   |
+| :----------------------------: | ---------------------------------------------------------------------------------------------------------------- |
+|           !important           | Se coloca sin importar el resto de estilos, este es el de mayor gerarquía (evitar usarlo)                        |
 | css inyectado en etiqueta HTML | Se aplicará sin importar el resto de CSS excepto si existe un !important (evitar usarlo)                         |
-| id                             | Los id se aplican si no existe un css inyectado en una etiquta HTML y si no existe un !important (evitar usarlo) |
-| clases                         | Las clases se aplican si lo anterior no existe en el CSS, si se quiere aplicar CSS se debe aplicar con clases    |
-| etiqueta                       | Las etiquetas son de menor gerarquía, se aplican si no existen clases                                            |
+|               id               | Los id se aplican si no existe un css inyectado en una etiquta HTML y si no existe un !important (evitar usarlo) |
+|             clases             | Las clases se aplican si lo anterior no existe en el CSS, si se quiere aplicar CSS se debe aplicar con clases    |
+|            etiqueta            | Las etiquetas son de menor gerarquía, se aplican si no existen clases                                            |
 
 ## [Combinadores](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators)
 
-| Tipo                          | Caracteristica                                                    |
-| ----------------------------- | ----------------------------------------------------------------- |
+|             Tipo              | Caracteristica                                                    |
+| :---------------------------: | ----------------------------------------------------------------- |
 | h2 + p {} (hermano adyacente) | aplica la propiedad si p sigue despues de h2                      |
-| h2 + p {} (hermano general)   | Aplica la propiedad siempre y cuando p este al mismo nivel que h2 |
-| div > p {} (hijo directo)     | si p es hijo directo de div, aplicale el estilo                   |
-| div p {} (desenciente)        | Si dentro de un div existe un p, aplicale este estilo             |
+|  h2 + p {} (hermano general)  | Aplica la propiedad siempre y cuando p este al mismo nivel que h2 |
+|   div > p {} (hijo directo)   | si p es hijo directo de div, aplicale el estilo                   |
+|    div p {} (desenciente)     | Si dentro de un div existe un p, aplicale este estilo             |
 
 ## Medidas
 
@@ -97,8 +97,8 @@ html{
   > Son una medida que no va a cambiar
 
 | Absolutas | Relativas            |
-| --------- | -------------------- |
-| px        | %                    |
+| :-------: | -------------------- |
+|    px     | %                    |
 |           | em                   |
 |           | rem(root em)         |
 |           | max-width/max-height |
@@ -120,3 +120,13 @@ html{
 
 - min-height:
   > es para que el elemento tenga un tamaño minimo pero si el contenido supera ese tamaño, entonces crecerá con el contenido el tamaño del eelemento
+
+## Position
+
+| Position | caracteristica                                                               |
+| :------: | ---------------------------------------------------------------------------- |
+|  static  | Viene en todos los elementos por defecto y no se puede modificar su posición |
+| absolute | se puede modificar su posición (bottom,top,left,right)                       |
+| relative | se puede modificar su posición (bottom,top,left,right)                       |
+|  fixed   | se puede modificar su posición (bottom,top,left,right)                       |
+|  sticky  | se puede modificar su posición (bottom,top,left,right)                       |
