@@ -1,74 +1,74 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+/* * { */
+/*   box-sizing: border-box; */
+/*   margin: 0; */
+/*   padding: 0; */
+/* } */
 
-html {
-  font-size: 62.5%;
-}
+/* html { */
+/*   font-size: 62.5%; */
+/* } */
 
-main {
-  display: flex;
-  margin: 2% auto;
-}
+/* main { */
+/*   display: flex; */
+/*   margin: 2% auto; */
+/* } */
 
-.tarjeta {
-  align-items: center;
-  border: 3px solid #95609f;
-  background-color: #cfc5a5;
-  border-radius: 20px;
-  min-height: 500px;
-  margin: 0 auto;
-  min-width: 370px;
-  width: 380px;
-  display: flex;
-  flex-direction: column;
-  color: #85603f;
-}
+/* .tarjeta { */
+/*   align-items: center; */
+/*   border: 3px solid #95609f; */
+/*   background-color: #cfc5a5; */
+/*   border-radius: 20px; */
+/*   min-height: 500px; */
+/*   margin: 0 auto; */
+/*   min-width: 370px; */
+/*   width: 380px; */
+/*   display: flex; */
+/*   flex-direction: column; */
+/*   color: #85603f; */
+/* } */
 
-.tarjeta-hijo {
-  min-height: 10px;
-}
+/* .tarjeta-hijo { */
+/*   min-height: 10px; */
+/* } */
 
-.tarjeta-hijo--marine {
-  align-items: center;
-  color: #85603f;
-  display: flex;
-  flex-direction: row;
-}
+/* .tarjeta-hijo--marine { */
+/*   align-items: center; */
+/*   color: #85603f; */
+/*   display: flex; */
+/*   flex-direction: row; */
+/* } */
 
-.tarjeta-hijo--marine > p {
-  text-align: center;
-  width: 250;
-  font-size: 1.2rem;
-  margin: 10px 5px;
-}
+/* .tarjeta-hijo--marine > p { */
+/*   text-align: center; */
+/*   width: 250; */
+/*   font-size: 1.2rem; */
+/*   margin: 10px 5px; */
+/* } */
 
-.tarjeta-hijo--marine > h2 {
-  font-size: 2.8rem;
-  margin: 10px;
-}
-.tarjeta-hijo--wanted {
-  font-size: 7rem;
-}
+/* .tarjeta-hijo--marine > h2 { */
+/*   font-size: 2.8rem; */
+/*   margin: 10px; */
+/* } */
+/* .tarjeta-hijo--wanted { */
+/*   font-size: 7rem; */
+/* } */
 
-.tarjeta img {
-  border: 3px solid;
-  border-radius: 20px;
-  margin: 10px 15px;
-  width: 300px;
-}
+/* .tarjeta img { */
+/*   border: 3px solid; */
+/*   border-radius: 20px; */
+/*   margin: 10px 15px; */
+/*   width: 300px; */
+/* } */
 
-.tarjeta-hijo--DoA {
-  font-size: 3.2rem;
-}
+/* .tarjeta-hijo--DoA { */
+/*   font-size: 3.2rem; */
+/* } */
 
-.tarjeta-hijo--nombre {
-  font-size: 3.3rem;
-}
+/* .tarjeta-hijo--nombre { */
+/*   font-size: 3.3rem; */
+/* } */
 
-.tarjeta-hijo--berry {
-  font-size: 4rem;
-  font-family: "Times New Roman", Times, serif;
-}
+/* .tarjeta-hijo--berry { */
+/*   font-size: 4rem; */
+/*   font-family: "Times New Roman", Times, serif; */
+/* } */
