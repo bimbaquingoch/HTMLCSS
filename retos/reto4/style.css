@@ -1,74 +1,81 @@
-/* * { */
-/*   box-sizing: border-box; */
-/*   margin: 0; */
-/*   padding: 0; */
-/* } */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-/* html { */
-/*   font-size: 62.5%; */
-/* } */
+html {
+  font-size: 62.5%;
+}
 
-/* main { */
-/*   display: flex; */
-/*   margin: 2% auto; */
-/* } */
+body {
+  display: flex;
+  flex-direction: row;
+  margin: 2% auto;
+}
 
-/* .tarjeta { */
-/*   align-items: center; */
-/*   border: 3px solid #95609f; */
-/*   background-color: #cfc5a5; */
-/*   border-radius: 20px; */
-/*   min-height: 500px; */
-/*   margin: 0 auto; */
-/*   min-width: 370px; */
-/*   width: 380px; */
-/*   display: flex; */
-/*   flex-direction: column; */
-/*   color: #85603f; */
-/* } */
+.content {
+  /* align-items: center; */
+  background-color: #cfc5a5;
+  border-radius: 20px;
+  color: #85603f;
+  /* display: inline-block; */
+  margin: 0 auto;
+  min-height: 500px;
+  width: 370px;
+}
+.content-Wanted h1 {
+  align-items: center;
+  text-align: center;
+  font-size: 7rem;
+  margin: 0 8px;
+  position: relative;
+}
+.content-img img {
+  border: 2px solid #85603f;
+  border-radius: 10px;
+  margin: 0 35px;
+  /* left: 35px; */
+  position: relative;
+  width: 300px;
+}
 
-/* .tarjeta-hijo { */
-/*   min-height: 10px; */
-/* } */
+.content-DoA p {
+  font-size: 3.4rem;
+  position: relative;
+  margin: 5px 40px;
+}
 
-/* .tarjeta-hijo--marine { */
-/*   align-items: center; */
-/*   color: #85603f; */
-/*   display: flex; */
-/*   flex-direction: row; */
-/* } */
+.content-name h1 {
+  font-size: 3.4rem;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 2px 6px;
+}
 
-/* .tarjeta-hijo--marine > p { */
-/*   text-align: center; */
-/*   width: 250; */
-/*   font-size: 1.2rem; */
-/*   margin: 10px 5px; */
-/* } */
+.content-money p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5rem;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  margin: 0 20px;
+}
 
-/* .tarjeta-hijo--marine > h2 { */
-/*   font-size: 2.8rem; */
-/*   margin: 10px; */
-/* } */
-/* .tarjeta-hijo--wanted { */
-/*   font-size: 7rem; */
-/* } */
+.content-marine {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
 
-/* .tarjeta img { */
-/*   border: 3px solid; */
-/*   border-radius: 20px; */
-/*   margin: 10px 15px; */
-/*   width: 300px; */
-/* } */
+.content-marine p {
+  font-size: 2rem;
+  margin: 0 15px;
+  position: relative;
+}
 
-/* .tarjeta-hijo--DoA { */
-/*   font-size: 3.2rem; */
-/* } */
-
-/* .tarjeta-hijo--nombre { */
-/*   font-size: 3.3rem; */
-/* } */
-
-/* .tarjeta-hijo--berry { */
-/*   font-size: 4rem; */
-/*   font-family: "Times New Roman", Times, serif; */
-/* } */
+.content-marine article {
+  font-size: 1.1rem;
+  margin: 10px;
+}
