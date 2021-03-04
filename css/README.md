@@ -130,3 +130,11 @@ html{
 | relative | se puede modificar su posición (bottom,top,left,right)                       |
 |  fixed   | se puede modificar su posición (bottom,top,left,right)                       |
 |  sticky  | se puede modificar su posición (bottom,top,left,right)                       |
+
+## Display
+
+|   Display    | Caracteristica                                                                                                                                                                                                                  |
+| :----------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    block     | ocupa el 100% del width sin importar el tamaño del contenido                                                                                                                                                                    |
+|    inline    | ocupa solo el espacio que tiene el contenido del elemento y si queda espacio delante, dejará que otras etiquetas se acomoden alado (no se puede usar el margin y paddin arriba o abajo tampoco se puede usar el width o height) |
+| inline-block | Es una combinación de inline y block                                                                                                                                                                                            |
