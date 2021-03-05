@@ -119,7 +119,7 @@ html{
   > es el tamaño maximo que tendra un elemento
 
 - min-height:
-  > es para que el elemento tenga un tamaño minimo pero si el contenido supera ese tamaño, entonces crecerá con el contenido el tamaño del eelemento
+  > es para que el elemento tenga un tamaño minimo pero si el contenido supera ese tamaño, entonces crecerá con el contenido el tamaño del elemento
 
 ## Position
 
@@ -133,8 +133,47 @@ html{
 
 ## Display
 
-|   Display    | Caracteristica                                                                                                                                                                                                                  |
-| :----------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    block     | ocupa el 100% del width sin importar el tamaño del contenido                                                                                                                                                                    |
-|    inline    | ocupa solo el espacio que tiene el contenido del elemento y si queda espacio delante, dejará que otras etiquetas se acomoden alado (no se puede usar el margin y paddin arriba o abajo tampoco se puede usar el width o height) |
-| inline-block | Es una combinación de inline y block                                                                                                                                                                                            |
+|   Display    | Caracteristica                                                                                                                       |
+| :----------: | ------------------------------------------------------------------------------------------------------------------------------------ |
+|    block     | ocupa el 100% del width sin importar el tamaño del contenido                                                                         |
+|    inline    | ocupa el espacio del contenido del elemento, si queda espacio otras etiquetas se acomodaran alado (❌margin/paddin/🔝🔛width/height) |
+| inline-block | Es una combinación de inline y block                                                                                                 |
+|     flex     | Ayuda al responsive design                                                                                                           |
+
+- flex-direction
+
+  - Default: row
+  - column
+  - row-reverse (voltea el orden de los elementos)
+  - column-reverse (voltea el orden de los elementos)
+
+- flex-wrap: wrap;
+  > lo elementos se acomodan al tamaño del viewport uno alado del otro o hacia abajo
+- flex-wrap: wrap-reverse;
+
+  > funciona igual que el anterior pero lo hace invertido
+
+- justify-content:
+
+  - center: alinea los elementos al centro
+  - flex-end: alinea todo a la derecha
+  - flex-start: alinea todo a la izquierda (viene por default)
+  - space-around: alinea todos los elementos con un espacio entre ellos
+  - space-evenly: alinea los elementos con un espacio igual para todos
+
+- align-items:
+  - flex-end: alinea todo en la parte de abajo
+  - flex-start: alinea todo en la parte de arriba
+  - stretch: Hace que el elemento se estire hasta ocupar todo el height de su contenedor padre
+  - baseline: Tomará el espacio del height que ocupe su contenido
+
+# Order
+
+> El orden se puede modificar desde el CSS con el atributo order: y todos los elementos que se encuentren en el mismo contenedor, que tengan este atributo se ordenaran, y los que no lo contengan dentro del mismo contenedor, se moveran a la izquierda.
+
+- Ejemplo:
+  - si tenemos 6 elementos y a 4 de ellos les colocamos el atributo order, 2 de los 6 elementos se moverán a la izquierda, el resto estarán ordenados como los colocamos
+
+> flex-grow:1; El elemento que tenga esta propiedad crecerá hasta llenar el espacio del width, respetando el tamaño de los demnás elementos
+
+> flex-basis: recibe valor número como parametro (ejem: 10rem) y funciona como colocarle un width a un elemento solo que en este caso el elemento actua de manera responsive
