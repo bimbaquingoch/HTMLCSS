@@ -177,3 +177,24 @@ html{
 > flex-grow:1; El elemento que tenga esta propiedad crecerá hasta llenar el espacio del width, respetando el tamaño de los demnás elementos
 
 > flex-basis: recibe valor número como parametro (ejem: 10rem) y funciona como colocarle un width a un elemento solo que en este caso el elemento actua de manera responsive
+
+# VARIABLES en CSS
+
+> Se declaran de la siguiente forma, dentro del root
+
+```
+:root{
+  --nombre-variable: atributo;
+  --primary-color: #003476;
+}
+```
+
+> Debe llevar el -- al incio
+
+- Se llama de la siguiente forma
+
+  ```
+  main{
+      color: var(--primary-color);
+  }
+  ```
