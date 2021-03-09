@@ -7,3 +7,7 @@
 ### Free videos and pics
 
 ### [pexels](https://www.pexels.com/)
+
+## [My device](https://www.mydevice.io/)
+
+## [SmashingMagazine](https://www.smashingmagazine.com/)
