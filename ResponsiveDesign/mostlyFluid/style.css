@@ -42,36 +42,3 @@ html {
 .c5 {
   background-color: #dfe1f5;
 }
-
-/*Media queries*/
-
-/* si la pantalla supera los 600px
- entonces se aplican estos estilos*/
-/* @media (min-width: 600px) { */
-/*   .c2, */
-/*   .c3, */
-/*   .c4 { */
-/*     width: 50%; */
-/*   } */
-/* } */
-
-/* @media (min-width: 800px) { */
-/*   .container { */
-/*     width: 800px; */
-/*     margin-left: auto; */
-/*     margin-right: auto; */
-/*   } */
-/*   .c1 { */
-/*     width: 60%; */
-/*   } */
-/*   .c2 { */
-/*     width: 40%; */
-/*   } */
-/*   .c3, */
-/*   .c4 { */
-/*     width: 33%; */
-/*   } */
-/*   .c5 { */
-/*     width: 34%; */
-/*   } */
-/* } */
