@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="IMAGENES RESPONSIVE" />
+    <title>Clase 50 | Imagenes responsive</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <picture>
+        <!-- es el contenedor de la imagen -->
+        <!-- srcset: le indicamos donde encuentra el resto de imagenes -->
+        <!-- dentro de esta etiqueta se pueden implementar media queries -->
+        <source media="(min-width:1300px)" srcset="./imgs/sheLarge.jpg" />
+        <source media="(min-width:1000px)" srcset="./imgs/shemedium.jpg" />
+        <img src="./imgs/shesmall.jpg" alt="es la imagen de una mujer" />
+      </picture>
+    </main>
+  </body>
+</html>
