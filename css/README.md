@@ -13,6 +13,7 @@
 - [Stylus](https://stylus-lang.com/)
 - [Sass](https://sass-lang.com/guide)
 - [Experiments](https://labs.jensimmons.com/)
+- [Flaticons](https://www.flaticon.com/)
 
 ![CSS](./imgs/reglacss.png)
 
