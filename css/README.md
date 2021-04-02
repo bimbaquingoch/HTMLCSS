@@ -4,7 +4,7 @@
 - [Game: Garden](https://cssgridgarden.com/#es)
 - [Game: Froggy](https://flexboxfroggy.com/#es)
 - [Color Hunt](https://colorhunt.co/)
-- [icons](https://iconos8.es/)
+- [icons](https://icons8.com/icons/ios-glyphs)
 - [Picular](https://picular.co/Video)
 - [Colors](https://coolors.co/)
 - [Gradient](https://cssgradient.io/gradient-backgrounds/)
